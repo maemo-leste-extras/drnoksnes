@@ -117,6 +117,7 @@ install: build
 	dh_clean -k 
 	dh_installdirs
 	$(MAKE) DESTDIR=$(CURDIR)/debian/drnoksnes GCONF_DISABLE_MAKEFILE_SCHEMA_INSTALL=1 install
+	dh_install
 
 # Build architecture-independent files here.
 binary-indep: build install
