@@ -194,13 +194,13 @@ static void loadDefaults()
 
 	Config.enableAudio = true;
 
-	Settings.SoundPlaybackRate = 22050;
+	Settings.SoundPlaybackRate = 44100;
 	Settings.Stereo = TRUE;
-	Settings.SoundBufferSize = 512; // in samples
+	Settings.SoundBufferSize = 4096; // in samples
 	Settings.CyclesPercentage = 100;
 	Settings.APUEnabled = TRUE;		// We'll enable it later
 	Settings.H_Max = SNES_CYCLES_PER_SCANLINE;
-	Settings.SkipFrames = AUTO_FRAMERATE;
+	Settings.SkipFrames = 1;
 	Settings.Shutdown = Settings.ShutdownMaster = TRUE;
 	Settings.FrameTimePAL = 20;	// in msecs
 	Settings.FrameTimeNTSC = 16;
