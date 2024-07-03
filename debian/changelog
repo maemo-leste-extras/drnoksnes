@@ -1,3 +1,10 @@
+drnoksnes (1.3.6) unstable; urgency=low
+
+  * Maemo-Leste version.
+  * No GUI (WIP).
+
+ -- Arno1103 <arno11-n900@outlook.com>  Wed, 3 Jul 2024 07:41:28 +0200
+
 drnoksnes (1.3.5) unstable; urgency=low
 
   * Removed all 8bpp support.
