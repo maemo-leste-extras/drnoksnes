@@ -2,7 +2,7 @@ Source: drnoksnes
 Section: user/games
 Priority: extra
 Maintainer: Arno11 <arno11-n900@outlook.com>
-Build-Depends: debhelper (>= 5), pkg-config, m4, libsdl1.2-dev,
+Build-Depends: debhelper (>= 10), pkg-config, m4, libsdl1.2-dev,
  libx11-dev, libpopt-dev, zlib1g-dev, gnupg,
  libosso-dev, osso-games-startup-dev, libsdl-image1.2-dev,
  libhildonfm2-dev, libhildonmime-dev
